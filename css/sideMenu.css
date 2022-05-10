@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+     /*Sidebar*/
+/* Side-menu */
+
+.side-menu {
+    height: 1701px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+
+    position: fixed;
+}
+
+/*bar-shadow*/
+.bar-shadow {
+    
+    height: 2508px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -47.44%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+/*Side-bar */
+.side-bar {
+    height: 536px;
+    width: 220px;
+    border-radius: 0px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+}
+
+/* Top - nome_evento */
+
+.top-nome_evento {
+    position: static;
+    width: 220px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle{
+    height: 68px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+/* SLACA 2019 */
+.slaca {
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*Menu */
+
+.menu{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    left: 0px;
+    top: 68px;
+}
+
+.menu-item{
+    height: 35px;
+    width: 220px;
+    left: 0px;
+    position: relative;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.menu-item:hover .rectangle-241 {
+    background-color: #FDF1EB;
+}
+
+.menu-item  .rectangle-241 .text{
+    height: 19px;
+    width: 80%;
+    
+    position: absolute;
+    left: 10.91%;
+    right: 62.73%;
+    top: 20%;
+    bottom: 25.71%;
+
+    font-family: 'Quicksand';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #725C5C;
+
+}
+.rectangle-241{
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 5.71%;
+
+    background: #FFFFFF;
+}
+
+.rectangle-242{
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 94.29%;
+    bottom: 0%;
+
+    background: #E7E7E7;
+}
+
+.rectangle-251{
+    display: none;
+    height: 33px;
+    width: 5px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 97.73%;
+    top: 0%;
+    bottom: 5.71%;
+    
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%); 
+}
+
+.menu .menu-item.active .rectangle-251{
+    display: block;
+}
+
+.menu .menu-item.active .rectangle-241{
+    background: #FDF1EB;   
+}
+
+.menu .menu-item.active .rectangle-241 .text{
+    left: 29px;
+}
+
+.menu-item-logo{
+    position: static;
+    width: 220px;
+    height: 258px;
+    left: 0px;
+    top: 68px;
+    background-color: pink;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+/*Logo Cover*/
+
+.logo-evento{
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
+
+.logo-evento .dewey4{
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background-image: url("../assets/dewey\ 4.svg");
+
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    *{
+        overflow-x: hidden;
+    }
+    .side-menu {
+        height: 100%;
+        width: 220px;
+        
+        z-index: 4;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    *{
+        overflow: hidden;
+    }
+    
+    .side-menu {
+        height: 600px;
+        width: 220px;
+        left: -220px;
+        top: 0px;
+        border-radius: 0px;
+
+        transition: left .5s;
+    
+        z-index: 4;
+        position: fixed;
+    }
+
+    .side-menu.left {
+        left: 0;
+    }
+
+    .bar-shadow {height: 20%;}
+        
+    .discussions-title{
+        
+        z-index: 4;
+    }
+
+    .mobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #ED7839;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        transition: left .5s;
+
+        z-index: 5;
+    }    
+
+    .mobile.mobile-left{
+        left: 220px;
+    }
+
+    .arrow{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        width: 80%;
+        height: 80%;
+        background-size: contain;
+        background-image: url('../assets/arrow.png');
+        transition: transform .5s;
+    }
+
+    .arrow.rotate {
+        transform: rotate(180deg);
+        right: 17%;
+    }
+
+  }
+
+
+
