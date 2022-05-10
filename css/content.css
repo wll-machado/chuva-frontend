@@ -1676,7 +1676,7 @@ width: 537.9583740234375px;
     top: 1891px;
 }
 
-@media screen and (max-width: 897px) {
+@media screen and (max-width: 1120px) {
     body{
         height: 100%;
     }
@@ -1698,6 +1698,23 @@ width: 537.9583740234375px;
         
     }
 
+    .resume-title{
+        position: relative;
+        top: 10px;
+    }
+
+    .discussions-title{
+        position: relative;
+        top: 10px;
+    }
+
+    .new-topic {
+        height: 26px;
+        top: 188.5px;}
+
+    .create-topic {
+        top: 84%;}    
+        
     .footer{
         position: absolute;
         width: 1059px;

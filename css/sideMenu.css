@@ -275,9 +275,6 @@
 }
 
 @media screen and (max-width: 897px) {
-    *{
-        overflow: hidden;
-    }
     
     .side-menu {
         height: 600px;
